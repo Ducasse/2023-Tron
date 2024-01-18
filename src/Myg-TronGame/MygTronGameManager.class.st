@@ -55,13 +55,13 @@ MygTronGameManager >> initialize [
 	currentMoveCount := 0.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #launch }
 MygTronGameManager >> launchAgain [
 
 	self launchFromString: (self currentBoardElement board class level1Grid ).
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #launch }
 MygTronGameManager >> launchFromString: aString [
 
 	| board |

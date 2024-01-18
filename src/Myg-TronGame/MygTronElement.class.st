@@ -63,7 +63,7 @@ MygTronElement >> printOn: aStream [
 	position printOn: aStream
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #move }
 MygTronElement >> restafterbump: boardEl space: boardElspace board: boardElboard [
 	boardEl resetBoard: boardElspace board: boardElboard .
 	^ boardEl 

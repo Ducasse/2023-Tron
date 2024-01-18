@@ -1,7 +1,7 @@
 Class {
 	#name : #MygTronTrail1,
 	#superclass : #MygTronTrail,
-	#category : #'Myg-TronGame-Model'
+	#category : #'Myg-TronGame-UI'
 }
 
 { #category : #accessing }

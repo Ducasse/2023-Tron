@@ -115,7 +115,7 @@ MygTronGameManagerTest >> testIsBoardReset [
 	space universe closeSpaceSynchronously: space
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #tests }
 MygTronGameManagerTest >> testMoveCountPlayer1 [
 
 	| string manager boardElement space |

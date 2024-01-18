@@ -6,7 +6,7 @@ Class {
 		'position',
 		'trail'
 	],
-	#category : #'Myg-TronGame-Model'
+	#category : #'Myg-TronGame-UI'
 }
 
 { #category : #'as yet unclassified' }

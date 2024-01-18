@@ -64,8 +64,8 @@ MygTronBoardElement >> elementsToUpdateAtPosition: aPoint goingIn: aCpDirection 
 
 	| layer elements playerElement neighborElement |
 	layer := self foregroundLayer.
-	playerElement := (layer childNamed: aPoint asString) firstChild.
-	neighborElement := (layer childNamed:
+	playerElement := (layer childWithId: aPoint asString) firstChild.
+	neighborElement := (layer childWithId:
 		                    (aCpDirection * aPoint) asString) firstChild.
 	elements := {
 		            playerElement.
